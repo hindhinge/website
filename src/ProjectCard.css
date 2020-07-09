@@ -1,0 +1,10 @@
+.card_bg{
+    width:auto;
+    height:auto;
+    background: white;
+    border-radius: 0px 0px 25px 25px;
+}
+
+p{
+    font-family: "Poppins";
+}

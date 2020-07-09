@@ -6,23 +6,60 @@
     margin-right: 5vw;
     border-radius: 25px;
     padding-top: 10px;
+    margin-bottom: 10px;
 }
 
 .title_logo{
     height: auto;
+    width:90vw;
     display: flex;
     align-items: stretch;
 }
 
 .logo{
-    width:30px;
-    height:30px;
-    margin-left: 40vw;
-    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top:10%;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
-.language_title{
+.arrow{
+    height: 20px;
+    width: 30px;
+    position: relative;
+    margin-top:5px;
+    left: 2vw;
+}
+
+.arrow_rot{
+    height: 20px;
+    width: 30px;
+    position: relative;
+    margin-top:5px;
+    left: 2vw;
+    transform: rotate(180deg);
+}
+
+.title_language{
     color:white;
+    position: relative;
+    top:10%;
+}
 
-
+.title_name{
+    font-size: 15px;
+    /* font-family: "Oxanium"; */
+    /* font-family: "Armata"; */
+    /* font-family: "Overpass"; */
+    /* font-family: "Amiko"; */
+    /* font-family:"Pontano Sans"; */
+    font-family:"Poppins";
+    text-align: center;
+    color:white;
+    position: relative;
+    margin-top: 5px;
+    margin-left:auto;
+    margin-right:auto;
 }

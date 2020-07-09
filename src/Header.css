@@ -6,6 +6,7 @@
     align-items: stretch;
     position: fixed;
     top:0%;
+    z-index: 10;
 }
 
 
@@ -16,7 +17,7 @@
     position: relative;
     top: 1vmin;
     left: 1vmin;
-    margin-right: 3vw;
+    margin-right: 2vw;
 }
 .text_about{
     float: right;
