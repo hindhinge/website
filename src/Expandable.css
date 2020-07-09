@@ -1,0 +1,28 @@
+.expandable{
+    height: auto;
+    background: rgb(55,55,65);
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+
+.title_logo{
+    height: auto;
+    display: flex;
+    align-items: stretch;
+}
+
+.logo{
+    width:30px;
+    height:30px;
+    margin-left: 40vw;
+    margin-right: 10px;
+}
+
+.language_title{
+    color:white;
+
+
+}

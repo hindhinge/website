@@ -1,0 +1,17 @@
+.body{
+    height: auto;
+    width: 100vw;
+    background: rgba(255,229,202,1);
+    margin: 0;
+    overflow-x: hidden;
+    padding-top: 15vmin;
+}
+
+.projects_categories{
+    font-family: 'Gugi';
+    font-size: 6vmin;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left:5vh;
+    text-shadow: 0.25vh 0.15vh #000000;
+}

@@ -1,0 +1,44 @@
+.header{
+    height: 15vmin;
+    width: 100vw;
+    background: rgb(55,55,65);
+    display: flex;
+    align-items: stretch;
+    position: fixed;
+    top:0%;
+}
+
+
+.text_logo{
+    font-family: 'Gugi';
+    font-size: 8vmin;
+    color: #ffffff;
+    position: relative;
+    top: 1vmin;
+    left: 1vmin;
+    margin-right: 3vw;
+}
+.text_about{
+    float: right;
+    font-family: 'Gugi';
+    font-size: 4vmin;
+    color: #ffffff;
+    position: relative;
+    top: 4vmin;
+}
+.text_projects{
+    font-family: 'Gugi';
+    font-size: 4vmin;
+    color: #ffffff;
+    position: relative;
+    top: 4vmin;
+    margin-left: 2vw;
+}
+.text_contact{
+    font-family: 'Gugi';
+    font-size: 4vmin;
+    color: #ffffff;
+    position: relative;
+    top: 4vmin;
+    margin-left: 2vw;
+}
