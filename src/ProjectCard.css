@@ -3,8 +3,62 @@
     height:auto;
     background: white;
     border-radius: 0px 0px 25px 25px;
+
 }
 
-p{
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 5vmin;
+}
+
+.paragraph{
+    font-family: "Poppins";
+    padding-top: 20px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: justify;
+    /* font-family: "Oxanium"; */
+    /* font-family: "Armata"; */
+    /* font-family: "Overpass"; */
+    /* font-family: "Amiko"; */
+    /* font-family:"Pontano Sans"; */
+}
+
+.img{
+    margin-right: 20px;
+    width: 37vw;
+    height: 25vmin;
+    border: 1px solid #d1cdc0;
+}
+.img_long{
+    margin-right: 20px;
+    width: 25vmin;
+    height: 45vmin;
+    border: 1px solid #d1cdc0;
+}
+.img_square{
+    margin-right: 20px;
+    width: 25vmin;
+    height: 25vmin;
+    border: 1px solid #d1cdc0;
+}
+
+.gitlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.gitlogo{
+    width: 3vmin;
+    height: 3vmin;
+}
+
+a{
     font-family: "Poppins";
 }

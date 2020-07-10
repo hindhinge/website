@@ -25,7 +25,7 @@ class Expandable extends Component {
           if (this.props.language == "Python"){
               this.setState({logo:logo_python})
           }   
-          if (this.props.language == "Vhdl"){
+          if ((this.props.language == "Vhdl") || (this.props.language =='Verilog')){
             this.setState({logo:logo_vhdl})
           }
           if (this.props.language == "Cpp"){

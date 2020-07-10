@@ -1,0 +1,14 @@
+.frame_upper{
+    position:absolute;
+    left:50%;
+    top:150%;
+}
+.frame_lower{
+    position:relative;
+    left: -50%;
+    width:50vmin;
+    height:50vmin;
+    border: dotted red 1px;
+    background: black;
+    z-index: 99;
+}
