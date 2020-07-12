@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import {BrowserRouter as Router, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Link, Redirect} from 'react-router-dom'
 import  './Body.css';
 
 
@@ -8,11 +8,14 @@ class Home extends Component {
         super(props);
     };
 
+    renderRedirect = () => {
+        return <Redirect to='/pl/about' />
+    };
 
   render() {
     return (
         <div className = "body">
-            <p>home</p>
+            {this.renderRedirect()}
         </div>
     );
   }

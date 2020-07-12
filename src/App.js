@@ -15,6 +15,11 @@ import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+};
+
+  static language = 'pl';
 
   componentDidMount(){
     console.log(window.location.toString())
@@ -37,12 +42,13 @@ class App extends React.Component {
     return (
       <div>
       <Router>
-        <Header/>
+        <Header language={App.language}/>
           <Switch>
             <Route exact path = '/' component = {Home}/>
-            <Route path = '/about' component = {About}/>
-            <Route path = '/contact' component = {Contact}/>
-            <Route path = '/projects' component = {Projects}/>
+            <Route path = '/pl/about' component={() => <About language={`pl`}/>}/>
+            <Route path = '/pl/projects' component={() => <Projects language={`pl`}/>}/>
+            <Route path = '/en/about' component={() => <About language={`en`}/>}/>
+            <Route path = '/en/projects' component={() => <Projects language={`en`}/>}/>
           </Switch>
       </Router>
       </div>

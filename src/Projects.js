@@ -25,6 +25,8 @@ import vending2 from './img/vending_2.png'
 import antsim1 from './img/antsim_1.png'
 import Contact from './Contact';
 
+import Header from './Header'
+
 
 class Projects extends Component {
   constructor(props) {
@@ -34,72 +36,69 @@ class Projects extends Component {
     }
     this.toggle = this.toggle.bind(this)
     this.pyttleships = {
-        text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id libero vitae metus interdum viverra. Aenean fringilla sem hendrerit, ornare velit quis, sagittis lorem. Ut pulvinar placerat erat, vitae ornare nulla rhoncus ac. In congue nec arcu a vehicula. Quisque aliquet sapien sit amet ipsum mattis euismod. Nulla euismod at metus et interdum. Etiam felis felis, dapibus et imperdiet non, gravida cursus enim.',
-               'Vestibulum aliquet ex ut molestie egestas. Suspendisse molestie orci eu quam porta, nec efficitur nunc aliquet. Etiam tincidunt metus eu posuere dignissim. Nullam sodales, elit nec pretium pulvinar, enim ipsum porta nisl, ac consectetur orci turpis vitae ipsum. Quisque felis tellus, maximus at mollis volutpat, sollicitudin sit amet ipsum. Suspendisse dapibus fringilla risus et mattis. Suspendisse ante dui, volutpat at lacus non, tristique convallis nibh. Proin at nisl interdum, fringilla arcu gravida, gravida purus. Curabitur commodo velit dignissim felis ullamcorper pellentesque.'],
+        text_pl: ['Prosta aplikacja pozwalająca zagrać użytkownikowi w statki z komputerem.','Napisana w Pythonie z wykorzystaniem Kivy w celu stworzenia interfejsu graficznego.','Celem gry jest zestrzelenie wszystkich statków przeciwnika, zanim on zniszczy wszystkie statki gracza. Strzały oddawane są naprzemiennie aż do momentu trafienia w statek; w takiej sytuacji można oddać strzał ponownie. Zachowaniem przeciwnika steruje prosty algorytm pozwalający na losowe ustawienie statków, oddawanie strzałów w losowe miejsce na planszy, oraz w razie trafienia, ostrzelanie sąsiednich pól do momentu zatopienia trafionego statku.'],
+        text_en: ['',''],
         imgs: [ships1,ships2],
         github: 'ijo ijo.github.com',
         name:"ships"
       };
 
     this.blackjack = {
-        text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id libero vitae metus interdum viverra. Aenean fringilla sem hendrerit, ornare velit quis, sagittis lorem. Ut pulvinar placerat erat, vitae ornare nulla rhoncus ac. In congue nec arcu a vehicula. Quisque aliquet sapien sit amet ipsum mattis euismod. Nulla euismod at metus et interdum. Etiam felis felis, dapibus et imperdiet non, gravida cursus enim.',
-               'Vestibulum aliquet ex ut molestie egestas. Suspendisse molestie orci eu quam porta, nec efficitur nunc aliquet. Etiam tincidunt metus eu posuere dignissim. Nullam sodales, elit nec pretium pulvinar, enim ipsum porta nisl, ac consectetur orci turpis vitae ipsum. Quisque felis tellus, maximus at mollis volutpat, sollicitudin sit amet ipsum. Suspendisse dapibus fringilla risus et mattis. Suspendisse ante dui, volutpat at lacus non, tristique convallis nibh. Proin at nisl interdum, fringilla arcu gravida, gravida purus. Curabitur commodo velit dignissim felis ullamcorper pellentesque.'],
+        text_pl: ['Aplikacja konsolowa pozwalająca na zagranie z komputerem w grę hazardową Blackjack.','Zachowanie krupiera zgodne jest ze strategią stosowaną w kasynach, czyli nie dobierać karty po osiągnięciu 17 punktów.'],
+        text_en: ['',''],
         imgs: [blackjack1,blackjack2],
         github: 'ijo ijo.github.com',
         name:"blackjack"
       };
     
     this.browar = {
-        text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id libero vitae metus interdum viverra. Aenean fringilla sem hendrerit, ornare velit quis, sagittis lorem. Ut pulvinar placerat erat, vitae ornare nulla rhoncus ac. In congue nec arcu a vehicula. Quisque aliquet sapien sit amet ipsum mattis euismod. Nulla euismod at metus et interdum. Etiam felis felis, dapibus et imperdiet non, gravida cursus enim.',
-               'Vestibulum aliquet ex ut molestie egestas. Suspendisse molestie orci eu quam porta, nec efficitur nunc aliquet. Etiam tincidunt metus eu posuere dignissim. Nullam sodales, elit nec pretium pulvinar, enim ipsum porta nisl, ac consectetur orci turpis vitae ipsum. Quisque felis tellus, maximus at mollis volutpat, sollicitudin sit amet ipsum. Suspendisse dapibus fringilla risus et mattis. Suspendisse ante dui, volutpat at lacus non, tristique convallis nibh. Proin at nisl interdum, fringilla arcu gravida, gravida purus. Curabitur commodo velit dignissim felis ullamcorper pellentesque.'],
-        imgs: [browar1,browar2],
-        github: 'ijo ijo.github.com',
-        name:"browar"
+      text_pl: ['Symulacja linii produkcyjnej w browarze za pomocą języka opisu sprzętu.','Projekt zaliczeniowy kursu wprowadzającego do VHDL.','Celem projektu było zasymulowanie wszystkich etapów produkcji butelki piwa (zakup butelek i kapsli, warzenie piwa, napełnianie i kapslowanie butelek), jako pojedynczego układu elektronicznego sterowanego za pomocą sygnałów zewnętrznych, odpowiadających sygnałom przekazywanym przez czujniki. W ramach projektu została wykonana jednostka testowa pozwalająca na zweryfikowanie poprawności działania symulacji.'],
+      text_en: ['',''],
+      imgs: [browar1,browar2],
+      github: 'ijo ijo.github.com',
+      name:"browar"
       };
     this.pct = {
-        text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id libero vitae metus interdum viverra. Aenean fringilla sem hendrerit, ornare velit quis, sagittis lorem. Ut pulvinar placerat erat, vitae ornare nulla rhoncus ac. In congue nec arcu a vehicula. Quisque aliquet sapien sit amet ipsum mattis euismod. Nulla euismod at metus et interdum. Etiam felis felis, dapibus et imperdiet non, gravida cursus enim.',
-               'Vestibulum aliquet ex ut molestie egestas. Suspendisse molestie orci eu quam porta, nec efficitur nunc aliquet. Etiam tincidunt metus eu posuere dignissim. Nullam sodales, elit nec pretium pulvinar, enim ipsum porta nisl, ac consectetur orci turpis vitae ipsum. Quisque felis tellus, maximus at mollis volutpat, sollicitudin sit amet ipsum. Suspendisse dapibus fringilla risus et mattis. Suspendisse ante dui, volutpat at lacus non, tristique convallis nibh. Proin at nisl interdum, fringilla arcu gravida, gravida purus. Curabitur commodo velit dignissim felis ullamcorper pellentesque.'],
-        imgs: [pct1,pct2],
-        github: 'ijo ijo.github.com',
-        name:"pct"
+      text_pl: ['Projekt rzeczywistego układu scalonego PTC2075, napisany na bazie karty katalogowej elementu, zrealizowany z wykorzystaniem języka opisu sprzętu.','Urządzenie wykorzystuje maszynę stanów, sterującą zachowaniem układu, przez odpowiednią reakcję na sygnały doprowadzane przez jednostkę nadrzędną. Pozwala to na dwukierunkową komunikację za pomocą magistrali I2C, odczyt i konfigurację rejestrów wewnętrznych.'],
+      text_en: ['',''],
+      imgs: [pct1,pct2],
+      github: 'ijo ijo.github.com',
+      name:"pct"
       };
     this.ftp = {
-        text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id libero vitae metus interdum viverra. Aenean fringilla sem hendrerit, ornare velit quis, sagittis lorem. Ut pulvinar placerat erat, vitae ornare nulla rhoncus ac. In congue nec arcu a vehicula. Quisque aliquet sapien sit amet ipsum mattis euismod. Nulla euismod at metus et interdum. Etiam felis felis, dapibus et imperdiet non, gravida cursus enim.',
-               'Vestibulum aliquet ex ut molestie egestas. Suspendisse molestie orci eu quam porta, nec efficitur nunc aliquet. Etiam tincidunt metus eu posuere dignissim. Nullam sodales, elit nec pretium pulvinar, enim ipsum porta nisl, ac consectetur orci turpis vitae ipsum. Quisque felis tellus, maximus at mollis volutpat, sollicitudin sit amet ipsum. Suspendisse dapibus fringilla risus et mattis. Suspendisse ante dui, volutpat at lacus non, tristique convallis nibh. Proin at nisl interdum, fringilla arcu gravida, gravida purus. Curabitur commodo velit dignissim felis ullamcorper pellentesque.'],
-        imgs: [ftp2,ftp3],
-        github: 'ijo ijo.github.com',
-        name:"ftp"
+      text_pl: ['Aplikacja mobilna napisana w Kotlinie.','Celem projektu było stworzenie aplikacji pozwalającej na połączenie się z wirtualną maszyną, z systemem z rodziny Unix, obecną na komputerze w sieci lokalnej. Po utworzeniu połączenia za pomocą protokołu SSH, na telefon pobierany jest plik tekstowy, zawierający zakodowaną informację o zdarzeniach związanych z klawiaturą, pobraną z folderu /dev/input/event. Pobrany plik tekstowy jest następnie dekodowany, a na ekranie urządzenia wyświetlane są znaki wprowadzone za pomocą klawiatury.'],
+      text_en: ['',''],
+      imgs: [ftp2,ftp3],
+      github: 'ijo ijo.github.com',
+      name:"ftp"
       };
     this.nfz = {
-        text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id libero vitae metus interdum viverra. Aenean fringilla sem hendrerit, ornare velit quis, sagittis lorem. Ut pulvinar placerat erat, vitae ornare nulla rhoncus ac. In congue nec arcu a vehicula. Quisque aliquet sapien sit amet ipsum mattis euismod. Nulla euismod at metus et interdum. Etiam felis felis, dapibus et imperdiet non, gravida cursus enim.',
-               'Vestibulum aliquet ex ut molestie egestas. Suspendisse molestie orci eu quam porta, nec efficitur nunc aliquet. Etiam tincidunt metus eu posuere dignissim. Nullam sodales, elit nec pretium pulvinar, enim ipsum porta nisl, ac consectetur orci turpis vitae ipsum. Quisque felis tellus, maximus at mollis volutpat, sollicitudin sit amet ipsum. Suspendisse dapibus fringilla risus et mattis. Suspendisse ante dui, volutpat at lacus non, tristique convallis nibh. Proin at nisl interdum, fringilla arcu gravida, gravida purus. Curabitur commodo velit dignissim felis ullamcorper pellentesque.'],
-        imgs: [nfz1,nfz2],
-        github: 'ijo ijo.github.com',
-        name:"nfz"
+      text_pl: ['Aplikacja webowa symulująca panel administratora w przychodni lekarskiej.','Część aplikacji po strone serwera została wykonana w ASP.NET, natomiast część aplikacji po stronie klienta napisana została w React.','W skład aplikacji wchodzą następujące funkcje:','-Dodawanie, usuwanie oraz edycja pacjentów przychodni,','-Dodawanie, usuwanie oraz edycja lekarzy w przychodni,','-Ustalanie wizyt u poszczególnych lekarzy,','-Wysyłanie przypomnień pacjentom o wizytach za pomocą SMTP,','-Modyfikowanie bazy leków.'],
+      text_en: ['',''],
+      imgs: [nfz1,nfz2],
+      github: 'ijo ijo.github.com',
+      name:"nfz"
       };
     this.spectro = {
-        text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id libero vitae metus interdum viverra. Aenean fringilla sem hendrerit, ornare velit quis, sagittis lorem. Ut pulvinar placerat erat, vitae ornare nulla rhoncus ac. In congue nec arcu a vehicula. Quisque aliquet sapien sit amet ipsum mattis euismod. Nulla euismod at metus et interdum. Etiam felis felis, dapibus et imperdiet non, gravida cursus enim.',
-               'Vestibulum aliquet ex ut molestie egestas. Suspendisse molestie orci eu quam porta, nec efficitur nunc aliquet. Etiam tincidunt metus eu posuere dignissim. Nullam sodales, elit nec pretium pulvinar, enim ipsum porta nisl, ac consectetur orci turpis vitae ipsum. Quisque felis tellus, maximus at mollis volutpat, sollicitudin sit amet ipsum. Suspendisse dapibus fringilla risus et mattis. Suspendisse ante dui, volutpat at lacus non, tristique convallis nibh. Proin at nisl interdum, fringilla arcu gravida, gravida purus. Curabitur commodo velit dignissim felis ullamcorper pellentesque.'],
-        imgs: [spectro1],
-        github: 'ijo ijo.github.com',
-        name:"spectro"
+      text_pl: ['Program będący tematem realizowanej przeze mnie pracy dyplomowej.','Aplikacja pozwalająca na analizę częstotliwościową sygnałów zapisanych w postaci plików dźwiękowych, lub na bieżąco, z mikrofonu podłączonego do komputera.','Wyniki analizy przedstawiane są następnie w postaci kolorowego, animowanego spektrogramu.'],
+      text_en: ['',''],
+      imgs: [spectro1],
+      github: 'ijo ijo.github.com',
+      name:"spectro"
       };
     this.vending = {
-        text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id libero vitae metus interdum viverra. Aenean fringilla sem hendrerit, ornare velit quis, sagittis lorem. Ut pulvinar placerat erat, vitae ornare nulla rhoncus ac. In congue nec arcu a vehicula. Quisque aliquet sapien sit amet ipsum mattis euismod. Nulla euismod at metus et interdum. Etiam felis felis, dapibus et imperdiet non, gravida cursus enim.',
-               'Vestibulum aliquet ex ut molestie egestas. Suspendisse molestie orci eu quam porta, nec efficitur nunc aliquet. Etiam tincidunt metus eu posuere dignissim. Nullam sodales, elit nec pretium pulvinar, enim ipsum porta nisl, ac consectetur orci turpis vitae ipsum. Quisque felis tellus, maximus at mollis volutpat, sollicitudin sit amet ipsum. Suspendisse dapibus fringilla risus et mattis. Suspendisse ante dui, volutpat at lacus non, tristique convallis nibh. Proin at nisl interdum, fringilla arcu gravida, gravida purus. Curabitur commodo velit dignissim felis ullamcorper pellentesque.'],
-        imgs: [vending1,vending2],
-        github: 'ijo ijo.github.com',
-        name:"vending"
-      };
-    this.antsim = {
-        text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id libero vitae metus interdum viverra. Aenean fringilla sem hendrerit, ornare velit quis, sagittis lorem. Ut pulvinar placerat erat, vitae ornare nulla rhoncus ac. In congue nec arcu a vehicula. Quisque aliquet sapien sit amet ipsum mattis euismod. Nulla euismod at metus et interdum. Etiam felis felis, dapibus et imperdiet non, gravida cursus enim.',
-               'Vestibulum aliquet ex ut molestie egestas. Suspendisse molestie orci eu quam porta, nec efficitur nunc aliquet. Etiam tincidunt metus eu posuere dignissim. Nullam sodales, elit nec pretium pulvinar, enim ipsum porta nisl, ac consectetur orci turpis vitae ipsum. Quisque felis tellus, maximus at mollis volutpat, sollicitudin sit amet ipsum. Suspendisse dapibus fringilla risus et mattis. Suspendisse ante dui, volutpat at lacus non, tristique convallis nibh. Proin at nisl interdum, fringilla arcu gravida, gravida purus. Curabitur commodo velit dignissim felis ullamcorper pellentesque.'],
-        imgs: [antsim1],
-        github: 'ijo ijo.github.com',
-        name:"antsim"
+      text_pl: ['Projekt zaliczeniowy kursu Weryfikacja Systemów Cyfrowych.','Celem projektu było przygotowanie jednostki testowej dla projektu układu dostarczonego przez prowadzącego kurs. Wybraną jednostką testowaną w tym przypadku był automat do sprzedaży napojów.','Jednostka testowa pozwala na zasymulowanie procesu zakupu dowolnego napoju przez użytkownika. W trakcie symulacji kontrolowany jest stan rejestrów wewnętrznych automatu, a informacje o błędach zapisywane są do pliku tekstowego.'],
+      text_en: ['',''],
+      imgs: [vending1,vending2],
+      github: 'ijo ijo.github.com',
+      name:"vending"
       };
 };
 
+componentDidMount() {
+  Header.current = 'projects';
+  console.log(Header.current);
+}
 
 toggle(){
     this.setState({isOpen: !this.state.isOpen})
@@ -113,33 +112,30 @@ return (
     <div className = "body">
       <p className="projects_categories">•Ostatnie</p>
       <Expandable language={"Python"} name={"Pyttleships"}>
-          <ProjectCard text={this.pyttleships.text} imgs={this.pyttleships.imgs} github={this.pyttleships.github} name={this.pyttleships.name}/>
+          <ProjectCard text={this.props.language=='en'?this.pyttleships.text_en:this.pyttleships.text_pl} imgs={this.pyttleships.imgs} github={this.pyttleships.github} name={this.pyttleships.name}/>
       </Expandable>
       <Expandable language={"Kotlin"} name={"FTPDisplayer"}>
-          <ProjectCard text={this.ftp.text} imgs={this.ftp.imgs} github={this.ftp.github} name={this.ftp.name}/>
+          <ProjectCard text={this.props.language=='en'?this.ftp.text_en:this.ftp.text_pl} imgs={this.ftp.imgs} github={this.ftp.github} name={this.ftp.name}/>
       </Expandable>
       <Expandable language={"Asp"} name={"NFZSim"}>
-          <ProjectCard text={this.nfz.text} imgs={this.nfz.imgs} github={this.nfz.github} name={this.nfz.name}/>
+          <ProjectCard text={this.props.language=='en'?this.nfz.text_en:this.nfz.text_pl} imgs={this.nfz.imgs} github={this.nfz.github} name={this.nfz.name}/>
       </Expandable>
       <Expandable language={"Vhdl"} name={"PTC2075"}>
-          <ProjectCard text={this.pct.text} imgs={this.pct.imgs} github={this.pct.github} name={this.pct.name}/>
+          <ProjectCard text={this.props.language=='en'?this.pct.text_en:this.pct.text_pl} imgs={this.pct.imgs} github={this.pct.github} name={this.pct.name}/>
       </Expandable>
       <p className="projects_categories">•Starsze</p>
       <Expandable language={"Verilog"} name={"VendingMachineTB"}>
-          <ProjectCard text={this.vending.text} imgs={this.vending.imgs} github={this.vending.github} name={this.vending.name}/>
+          <ProjectCard text={this.props.language=='en'?this.vending.text_en:this.vending.text_pl} imgs={this.vending.imgs} github={this.vending.github} name={this.vending.name}/>
       </Expandable>
       <Expandable language={"Vhdl"} name={"BROWAR"}>
-          <ProjectCard text={this.browar.text} imgs={this.browar.imgs} github={this.browar.github} name={this.browar.name}/>
+          <ProjectCard text={this.props.language=='en'?this.browar.text_en:this.browar.text_pl} imgs={this.browar.imgs} github={this.browar.github} name={this.browar.name}/>
       </Expandable>
       <Expandable language={"Cpp"} name={"ConsoleBlackjack"}>
-          <ProjectCard text={this.blackjack.text} imgs={this.blackjack.imgs} github={this.blackjack.github} name={this.blackjack.name}/>
+          <ProjectCard text={this.props.language=='en'?this.blackjack.text_en:this.blackjack.text_pl} imgs={this.blackjack.imgs} github={this.blackjack.github} name={this.blackjack.name}/>
       </Expandable>
       <p className="projects_categories">•W trakcie</p>
       <Expandable language={"Python"} name={"Spectro"}>
-          <ProjectCard text={this.spectro.text} imgs={this.spectro.imgs} github="" name={this.spectro.name}/>
-      </Expandable>
-      <Expandable language={"Python"} name={"Antsim"}>
-          <ProjectCard text={this.antsim.text} imgs={this.antsim.imgs} github="" name={this.antsim.name}/>
+          <ProjectCard text={this.props.language=='en'?this.spectro.text_en:this.spectro.text_pl} imgs={this.spectro.imgs} github="" name={this.spectro.name}/>
       </Expandable>
     </div>
 );
