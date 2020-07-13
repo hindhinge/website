@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/website/static/css/main.2f3e2a12.chunk.css",
-    "main.js": "/website/static/js/main.a397b4d8.chunk.js",
-    "main.js.map": "/website/static/js/main.a397b4d8.chunk.js.map",
+    "main.js": "/website/static/js/main.3ddb3dd8.chunk.js",
+    "main.js.map": "/website/static/js/main.3ddb3dd8.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.9b825fe6.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.9b825fe6.js.map",
     "static/css/2.829c9cb5.chunk.css": "/website/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.1ff18c2a.chunk.js": "/website/static/js/2.1ff18c2a.chunk.js",
-    "static/js/2.1ff18c2a.chunk.js.map": "/website/static/js/2.1ff18c2a.chunk.js.map",
+    "static/js/2.175a5352.chunk.js": "/website/static/js/2.175a5352.chunk.js",
+    "static/js/2.175a5352.chunk.js.map": "/website/static/js/2.175a5352.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.dd466492368afaf35ed4b4eac1c7852a.js": "/website/precache-manifest.dd466492368afaf35ed4b4eac1c7852a.js",
+    "precache-manifest.aac4d835f88f40aae1e1e5cb5a42c844.js": "/website/precache-manifest.aac4d835f88f40aae1e1e5cb5a42c844.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/website/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.2f3e2a12.chunk.css.map": "/website/static/css/main.2f3e2a12.chunk.css.map",
-    "static/js/2.1ff18c2a.chunk.js.LICENSE.txt": "/website/static/js/2.1ff18c2a.chunk.js.LICENSE.txt",
+    "static/js/2.175a5352.chunk.js.LICENSE.txt": "/website/static/js/2.175a5352.chunk.js.LICENSE.txt",
     "static/media/blackjack_1.png": "/website/static/media/blackjack_1.2c724060.png",
     "static/media/blackjack_2.png": "/website/static/media/blackjack_2.f93a4ca7.png",
     "static/media/browar_1.png": "/website/static/media/browar_1.c5704f0c.png",
@@ -22,7 +22,6 @@
     "static/media/ftp_1.png": "/website/static/media/ftp_1.5622613a.png",
     "static/media/ftp_2.png": "/website/static/media/ftp_2.e46908e2.png",
     "static/media/ftp_3.png": "/website/static/media/ftp_3.b41c3d69.png",
-    "static/media/logo.svg": "/website/static/media/logo.5d5d9eef.svg",
     "static/media/logo_Asp.png": "/website/static/media/logo_Asp.66afcc4b.png",
     "static/media/logo_Cpp.png": "/website/static/media/logo_Cpp.0b849c72.png",
     "static/media/logo_Github.png": "/website/static/media/logo_Github.3e54ed15.png",
@@ -42,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.9b825fe6.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.1ff18c2a.chunk.js",
+    "static/js/2.175a5352.chunk.js",
     "static/css/main.2f3e2a12.chunk.css",
-    "static/js/main.a397b4d8.chunk.js"
+    "static/js/main.3ddb3dd8.chunk.js"
   ]
 }
