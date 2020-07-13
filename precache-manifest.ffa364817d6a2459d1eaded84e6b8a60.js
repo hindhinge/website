@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdc8c47f3f981da5662fbab3e45e30ad",
+    "revision": "c5d1c949f1b4d24ed59452037d546e12",
     "url": "/website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "19ff016c4387dcc4956d",
+    "revision": "4298ed5b964623338f88",
     "url": "/website/static/css/main.c8ff343f.chunk.css"
   },
   {
@@ -20,28 +20,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/js/2.3caaac5d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "19ff016c4387dcc4956d",
-    "url": "/website/static/js/main.75e4f013.chunk.js"
+    "revision": "4298ed5b964623338f88",
+    "url": "/website/static/js/main.39803515.chunk.js"
   },
   {
     "revision": "9c23e00f99dd7916e537",
     "url": "/website/static/js/runtime-main.9b825fe6.js"
   },
   {
-    "revision": "2c724060e1e710f3fd169a7aa27ec69b",
-    "url": "/website/static/media/blackjack_1.2c724060.png"
+    "revision": "737bb52c6e90f8a217ac409026377a20",
+    "url": "/website/static/media/blackjack_1.737bb52c.png"
   },
   {
-    "revision": "f93a4ca79614a99d346465cc56a2b8f0",
-    "url": "/website/static/media/blackjack_2.f93a4ca7.png"
+    "revision": "97b1eeb2b42d01aacce46cc001cf291b",
+    "url": "/website/static/media/blackjack_2.97b1eeb2.png"
   },
   {
     "revision": "c5704f0c0deb0f56e8710b685df96e19",
     "url": "/website/static/media/browar_1.c5704f0c.png"
   },
   {
-    "revision": "64f362d13020f3aed36d5380e23f4b85",
-    "url": "/website/static/media/browar_2.64f362d1.png"
+    "revision": "a3edb98afc402d6d2cf942e2697baf45",
+    "url": "/website/static/media/browar_2.a3edb98a.png"
   },
   {
     "revision": "e87c734b4717a09a2bf22e0cea1c82e3",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/pct2075_1.da149152.png"
   },
   {
-    "revision": "90d38fa81d7eab83351a15da18e35809",
-    "url": "/website/static/media/pct2075_2.90d38fa8.png"
+    "revision": "f188cc22a3cabe91e1d3765c9de05c5a",
+    "url": "/website/static/media/pct2075_2.f188cc22.png"
   },
   {
     "revision": "dbcebc673d0224de3acc385612ffb8fe",
@@ -116,7 +116,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/vending_1.27946baf.png"
   },
   {
-    "revision": "3d21f03c8164f40daf2b83961a81df33",
-    "url": "/website/static/media/vending_2.3d21f03c.png"
+    "revision": "28a5fc57c94dad61e23ef18f9548e12f",
+    "url": "/website/static/media/vending_2.28a5fc57.png"
   }
 ]);
